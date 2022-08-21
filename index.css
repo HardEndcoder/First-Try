@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto Mono', monospace;
+    margin: 0px;
 }
 
 h1 {
@@ -10,8 +11,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 10%;
 }
 
 .half-width {
@@ -30,4 +32,42 @@ section {
     font-weight: 400px;
     color: white;
     border-radius: 10px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Experience-Area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.Experience-item {
+    box-shadow: 5px 5px 20px black;
+    width: 50%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#orange-border {
+    border-left: orange solid 5px;
+}
+
+#blue-border {
+    border-left: blue solid 5px;
+}
+
+footer {
+    text-align: center;
 }
